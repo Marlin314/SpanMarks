@@ -8,6 +8,10 @@ This approach has been enormously successful. However, it also carries a set of 
 
 This paper explores an alternative conceptual framing. Instead of treating structure as something extracted once from text, we treat interpretation as a collection of independently generated annotations over spans of text. Trees and token streams become derived views rather than primary representations.
 
+The ultimate goal of this project is to work on a different way of storing and representing computer languages which is structural rather than textural, where the text that you show to the human that is editing the code is one projection of the structure and the text that you show to the compiler is a different view/projection. It is an attempt to remove the compromise that comes from assuming that a human must see the identical code that the compiler sees. 
+
+SpanMarks is not code, it is a concept intended to help us shed the notions and traditional concepts that computer languages ARE that THE string of characters that a human TYPES and then shoves into a compiler. The code in this project will be ultimately be the tooling that will help us build an editor, but it will NOT edit text. It will edit structures which can then be emited as different texts. SpanMarks is just the name of the guiding principle.
+
 ---
 
 ## 2. SpanMarks
